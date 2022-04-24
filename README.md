@@ -1,7 +1,11 @@
-# password-generator
+# Password-Generator
 Password Generator Homework assignment, powered by Javascript.
 
-Criteria Below,
+# Directions
+
+Once you open the application, you will be prompted to answer a series of questions including how long do you want your password to be, and whether or not you would like to include numbers and special characters. Once you have completed all of the prompts by answering correctly, a new password will be generated in the text box with the criteria selected.
+
+# Acceptance Critera 
 
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
@@ -18,4 +22,7 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
-```
+
+
+# Github Link 
+https://vcristian1.github.io/password-generator/

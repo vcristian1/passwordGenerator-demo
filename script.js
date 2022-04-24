@@ -41,11 +41,10 @@ function generatePassword() {
       // add random letter to whatever is in `generatedPassword`
       generatedPassword += randomLetter
     }
-  } // have a password with `x` number of characters
+  } 
   
   if (useUppercase) {
-    // add a random uppercase letter to `generatedPassword`
-    // 
+    // add a random uppercase letter to `generatedPassword` 
     generatedPassword = generatedPassword[0].toUpperCase() + generatedPassword.substring(1)
   }
   
@@ -56,12 +55,10 @@ function generatePassword() {
   }
 
   if (useSpecialCharacter){
-    // add a random special character to `generatedPassword`
+    // add a random special character to `generatedPassword` 
     let specialCharacters = '!@#$%'
     generatedPassword += specialCharacters[1]
-    // 2. add 1 random special characters from specialCharacters above
   }
-
   // 5. return random password
   return generatedPassword;
 }
