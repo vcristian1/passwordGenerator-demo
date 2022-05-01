@@ -17,7 +17,7 @@ function generatePassword() {
   let useSpecialCharacter = confirm("Would you like to include special characters in your password?")
   
   // Check to make sure at least 1 is selected
-    if (!useUppercase && !useLowercase && !useNumeric && !useSpecialCharacter) {
+    if (!useUppercase && !useNumeric && !useSpecialCharacter) {
       alert("You must select at least one!")
       useUppercase = confirm('Would you like to include uppercase in your password?')
       useNumeric = confirm("Would you like to include a number in your password?")
